@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script type="text/javascript">
+		function user(){
+			var userName=document.getElementById("userN name").value
+			document.getElementById("anand").innerHTML=userName
+		}
+	</script>
+	<!-- <script type="text/javascript">
+		function user(){
+			var userName=document.getElementById("userName").value
+			var textData=document.getElementsByClassName("para")
+			console.log(textData.length)
+			for(var i=0;i<textData.length;i++){
+				console.log(textData[i].innerHTML)
+			}
+			var listOfUl=document.getElements ByTagName("li")
+			for(var d=0;d<listOfUl.length;d++){
+				console.log(listOfUl[d].innerHTML)
+			}
+		}
+	</script> -->
+</head>
+<body>
+	<input id="userName"/>
+	<h1>Name is:<span id="anand">I am UNIQUE</span></h1>
+	<!-- <p class="para">How are you</p>
+	<p class="para">Who are you</p>
+	<h1 class="para">Anand Vurugonda</h1>
+	<ul>
+		<li>mango</li>
+		<li>apple</li>
+		<li>guava</li>
+		<li>grape</li>
+		<li>custard apple</li>
+	</ul> -->
+	<button onclick="user()">Submit</button>
+
+</body>
+</html>
